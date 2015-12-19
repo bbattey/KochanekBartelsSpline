@@ -8,7 +8,7 @@ Includes the extra benefit of interpolating colors between the given points.
 
 A Kochanek Bartels Spline provides Tension, Continuity and Bias controls that can alter the curvature of the spline as it goes through the given points. Hence it is also sometimes called a TCB spline. It was originally developed to provide smooth animation keyframing.
 
-Keeping then TCB parameters within their normal -1 to 1 range probably makes sense for keyframing applications, some wonderful graphic results can arise if setting the parameters outside of that range.
+Keeping the TCB parameters within their normal -1 to 1 range probably makes sense for keyframing applications. But some wonderful graphic results can arise if setting the parameters outside of that range.
 
 The file kbExampleUsage.m shows how to use the class, but it is not standalone code; it would need to be embedded in some other piece of code.
 
